@@ -30,7 +30,7 @@
                 data.forEach(item => {
                     const card = document.createElement('div');
                     card.className = 'card';
-                    card.innerHTML = `<h2>${item.title}</h2><p>${item.description}</p>`;
+                    card.innerHTML = `<h2>${item.title}</h2><p>${item.description}</p><p>${item.price}</p>`;
                     outputDiv.appendChild(card);
                 });
             })
